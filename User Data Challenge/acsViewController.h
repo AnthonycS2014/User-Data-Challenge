@@ -10,4 +10,6 @@
 
 @interface acsViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *users;
+
 @end

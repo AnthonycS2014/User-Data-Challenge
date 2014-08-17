@@ -128,8 +128,7 @@
 				905BE9AF19A10F5100952FB7 /* Main.storyboard */,
 				905BE9B219A10F5100952FB7 /* acsViewController.h */,
 				905BE9B319A10F5100952FB7 /* acsViewController.m */,
-				905BE9D219A1108300952FB7 /* CCUserData.h */,
-				905BE9D319A1108400952FB7 /* CCUserData.m */,
+				90E7780019A1252600207501 /* Model */,
 				905BE9B519A10F5100952FB7 /* Images.xcassets */,
 				905BE9A419A10F5100952FB7 /* Supporting Files */,
 			);
@@ -175,6 +174,15 @@
 				905BE9D919A111DC00952FB7 /* person4.jpeg */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		90E7780019A1252600207501 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				905BE9D219A1108300952FB7 /* CCUserData.h */,
+				905BE9D319A1108400952FB7 /* CCUserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,6 +495,7 @@
 				905BE9CE19A10F5100952FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		905BE9CF19A10F5100952FB7 /* Build configuration list for PBXNativeTarget "User Data ChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +504,7 @@
 				905BE9D119A10F5100952FB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
